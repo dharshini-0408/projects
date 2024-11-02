@@ -1,0 +1,21 @@
+.searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.searchForm input{
+    padding: 18px 12px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 79%;
+    transition: border-color 0.3s;
+}
+.searchForm input:focus{
+    border-color: #007bff;
+    outline: none;
+}
